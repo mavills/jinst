@@ -1,0 +1,27 @@
+{
+  "name": "tauri-htmx-js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "tauri": "tauri"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.5.8",
+    "tailwindcss": "^3.4.0"
+  },
+  "dependencies": {
+    "@interactjs/actions": "^1.10.26",
+    "@interactjs/auto-start": "^1.10.26",
+    "@interactjs/dev-tools": "^1.10.26",
+    "@interactjs/interact": "^1.10.26",
+    "@interactjs/modifiers": "^1.10.26",
+    "@replit/codemirror-vim": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "codemirror": "^6.0.1",
+    "htmx.org": "^1.9.10",
+    "interactjs": "^1.10.26",
+    "rollup": "^4.9.1",
+    "tauri-plugin-htmx": "^1.0.1"
+  }
+}

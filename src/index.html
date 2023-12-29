@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" class="h-full">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="output.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tauri App</title>
+  <script type="module" src="/main.bundle.js" defer></script>
+  <style>
+    .logo.vanilla:hover {
+      filter: drop-shadow(0 0 2em #ffe21c);
+    }
+  </style>
+</head>
+
+<body class="h-full">
+  <div class="w-full h-full flex flex-row">
+    <div class="resize-drag min-w-16 bg-slate-100"></div>
+    <div class="grow flex flex-col">
+      <div id="path-editor" class="m-2 flex flex-row"></div>
+      <div id="path-editor-2" class="grow h-0 flex flex-row bg-white mx-2 mb-4">
+      </div>
+      <!-- <textarea id="address-bar" class="rounded-lg border border-gray-300 m-4 h-12 resize-none text-2xl">
+      </textarea> -->
+
+    </div>
+
+    <!-- <div class="row">
+      <input id="greet-input" name="name" placeholder="Enter a name..." />
+      <button hx-post="command:greet" hx-include="[name='name']" hx-trigger="click" hx-target="#greet-msg"
+        hx-swap="innerHTML">Greet</button>
+    </div> -->
+
+    <!-- <p id="greet-msg"></p> -->
+  </div>
+</body>
+
+</html>
